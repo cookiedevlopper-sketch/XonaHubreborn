@@ -1,15 +1,15 @@
 local Luna = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nebula-Softworks/Luna-Interface-Suite/refs/heads/master/source.lua", true))()
 local Window = Luna:CreateWindow({
-	Name = "Xona Hub - Reborn", 
-	Subtitle = nil, 
-	LogoID = "82795327169782", 
+	Name = "Xona Hub", 
+	Subtitle = "Normal Mode", 
+	LogoID = "6031097225", 
 	LoadingEnabled = true, 
 	LoadingTitle = "Xona Hub - Future of Universal simple script", 
 	LoadingSubtitle = "by Cookie_Devlopper", 
 
 	ConfigSettings = {
 		RootFolder = nil, 
-		ConfigFolder = "Big Hub" 
+		ConfigFolder = "Xona Hub" 
 	},
 
 	KeySystem = true, 
