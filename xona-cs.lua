@@ -114,6 +114,14 @@ local Button = Tab:CreateButton({
     	end
 })
 
+local Button = Tab:CreateButton({
+	Name = "Posral [ Key system ]",
+	Description = nil, -- Creates A Description For Users to know what the button does (looks bad if you use it all the time),
+    	Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/Brovaky/Friendly/refs/heads/main/Friendly"))()
+    	end
+})
+
 local Tab = Window:CreateTab({
 	Name = "Murder Mystery 2",
 	Icon = "star_rate",
