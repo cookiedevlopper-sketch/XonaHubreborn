@@ -22,21 +22,16 @@ local Window = Luna:CreateWindow({
 	}
 })
 
-local Tab = Window:CreateTab({
-	Name = "Home",
-	Icon = "view_in_ar",
-	ImageSource = "Material",
-	ShowTitle = true
-})
 
-local Paragraph = Tab:CreateParagraph({
-	Title = "Welcome to Xona Hub",
-	Text = "Thanks for using Xona Hub, im really happy to do a other vertion of Xona Hub with better Ui and updates !"
+Window:CreateHomeTab({
+	SupportedExecutors = {}, -- A Table Of Executors Your Script Supports. Add strings of the executor names for each executor.
+	DiscordInvite = "1234", -- The Discord Invite Link. Do Not Include discord.gg/ | Only Include the code.
+	Icon = 1, -- By Default, The Icon Is The Home Icon. If You would like to change it to dashboard, replace the interger with 2
 })
 
 local Tab = Window:CreateTab({
 	Name = "Admin scripts",
-	Icon = "view_in_ar",
+	Icon = "loop",
 	ImageSource = "Material",
 	ShowTitle = true
 })
@@ -67,7 +62,7 @@ local Button = Tab:CreateButton({
 
 local Tab = Window:CreateTab({
 	Name = "Arsenal Script",
-	Icon = "view_in_ar",
+	Icon = "code",
 	ImageSource = "Material",
 	ShowTitle = true
 })
@@ -90,7 +85,7 @@ local Button = Tab:CreateButton({
 
 local Tab = Window:CreateTab({
 	Name = "Fling Things and People",
-	Icon = "view_in_ar",
+	Icon = "sparkle",
 	ImageSource = "Material",
 	ShowTitle = true
 })
@@ -112,7 +107,7 @@ local Button = Tab:CreateButton({
     	end
 })
 local Button = Tab:CreateButton({
-	Name = "Bliztz Hub [ Key system ]",
+	Name = "Blizt Hub [ Key system ]",
 	Description = nil, -- Creates A Description For Users to know what the button does (looks bad if you use it all the time),
     	Callback = function()
          loadstring(game:HttpGet("https://raw.githubusercontent.com/BlizTBr/scripts/refs/heads/main/FTAP.lua"))()
@@ -121,7 +116,7 @@ local Button = Tab:CreateButton({
 
 local Tab = Window:CreateTab({
 	Name = "Murder Mystery 2",
-	Icon = "view_in_ar",
+	Icon = "star_rate",
 	ImageSource = "Material",
 	ShowTitle = true
 })
@@ -136,7 +131,7 @@ local Button = Tab:CreateButton({
 
 local Tab = Window:CreateTab({
 	Name = "Brookhaven",
-	Icon = "view_in_ar",
+	Icon = "euro_symbol",
 	ImageSource = "Material",
 	ShowTitle = true
 })
