@@ -24,9 +24,9 @@ local Window = Luna:CreateWindow({
 
 
 Window:CreateHomeTab({
-	SupportedExecutors = {}, -- A Table Of Executors Your Script Supports. Add strings of the executor names for each executor.
-	DiscordInvite = "1234", -- The Discord Invite Link. Do Not Include discord.gg/ | Only Include the code.
-	Icon = 1, -- By Default, The Icon Is The Home Icon. If You would like to change it to dashboard, replace the interger with 2
+	SupportedExecutors = {}, 
+	DiscordInvite = "qMsU6j7yfh", 
+	Icon = 1, 
 })
 
 local Tab = Window:CreateTab({
@@ -38,7 +38,7 @@ local Tab = Window:CreateTab({
 
 local Button = Tab:CreateButton({
 	Name = "Infinite Yeld [ Keyless ]",
-	Description = nil, -- Creates A Description For Users to know what the button does (looks bad if you use it all the time),
+	Description = nil, 
     	Callback = function()
          loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
     	end
